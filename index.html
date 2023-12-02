@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+    <body>
+       <section class="Formulario">
+        <div id="Logo" class="logo-container">
+            <img src="taletentos.png" alt="Talentos de futuro" class="logo">
+        </div>
+
+    <div class="dados-cadastrais">
+        <h2>Dados Cadastrais</h2>
+
+        <form action="">
+            <div class="form-group">
+                <label for="ano_formacao">Ano de Formação no Programa:</label>
+                <input type="text" id="ano_formacao" name="ano_formacao" required>
+            </div>
+
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="text" id="telefone" name="telefone" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email_cadastral">Email:</label>
+                <input type="email" id="email_cadastral" name="email_cadastral" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" required>
+            </div>
+
+        </form>
+    </div>
+
+    <div class="status-empregabilidade">
+        <h2>Status e Empregabilidade</h2>
+
+        <form action="">
+            <div class="form-group">
+                <label for="linkedin">LinkedIn:</label>
+                <input type="text" id="linkedin" name="linkedin" required>
+            </div>
+
+            <div class="form-group">
+                <label for="instagram">Instagram:</label>
+                <input type="text" id="instagram" name="instagram" required>
+            </div>
+
+            <div class="form-group">
+                <label>Está Trabalhando?</label>
+                <input type="radio" id="trabalhando_sim" name="trabalhando" value="Sim">
+                <label for="trabalhando_sim">Sim</label>
+                <input type="radio" id="trabalhando_nao" name="trabalhando" value="Não">
+                <label for="trabalhando_nao">Não</label>
+            </div>
+
+            <div class="form-group">
+                <label for="local_trabalho">Se Sim, Onde?</label>
+                <input type="text" id="local_trabalho" name="local_trabalho">
+            </div>
+
+            <div class="form-group">
+                <label for="formato_trabalho">Formato de Trabalho:</label>
+                <select id="formato_trabalho" name="formato_trabalho">
+                    <option value="Presencial">Presencial</option>
+                    <option value="Remoto">Remoto</option>
+                    <option value="Híbrido">Híbrido</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="cargo">Cargo:</label>
+                <input type="text" id="cargo" name="cargo">
+            </div>
+
+            <div class="form-group">
+                <label for="quando_iniciou">Quando Iniciou?</label>
+                <input type="date" id="quando_iniciou" name="quando_iniciou">
+            </div>
+
+            <div class="form-group">
+                <label>Se Não, Trabalhou em Algum Lugar Depois da Formação?</label>
+                <input type="radio" id="trabalhou_depois_sim" name="trabalhou_depois" value="Sim">
+                <label for="trabalhou_depois_sim">Sim</label>
+                <input type="radio" id="trabalhou_depois_nao" name="trabalhou_depois" value="Não">
+                <label for="trabalhou_depois_nao">Não</label>
+            </div>
+
+            <div class="form-group">
+                <label for="tempo_trabalhado">Por Quanto Tempo?</label>
+                <input type="text" id="tempo_trabalhado" name="tempo_trabalhado">
+            </div>
+
+            <div class="form-group">
+                <label for="porque_nao_trabalhou">Se Não, Por Quê?</label>
+                <textarea id="porque_nao_trabalhou" name="porque_nao_trabalhou"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="outro_motivo">Outro Motivo:</label>
+                <input type="text" id="outro_motivo" name="outro_motivo">
+            </div>
+
+            <div class="form-group">
+                <label>Está Estudando?</label>
+                <input type="radio" id="estudando_sim" name="estudando" value="Sim">
+                <label for="estudando_sim">Sim</label>
+                <input type="radio" id="estudando_nao" name="estudando" value="Não">
+                <label for="estudando_nao">Não</label>
+            </div>
+
+            <div class="form-group">
+                <label for="curso_atual">Se Sim, O Que?</label>
+                <input type="text" id="curso_atual" name="curso_atual">
+            </div>
+
+            <div class="form-group">
+                <label for="outro_curso">Outro:</label>
+                <input type="text" id="outro_curso" name="outro_curso">
+            </div>
+
+            <div class="form-group">
+                <label for="observacoes">Observações:</label>
+                <textarea id="observacoes" name="observacoes"></textarea>
+            </div>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+       </section>
+</body>
+
+</html>
